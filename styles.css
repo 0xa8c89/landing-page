@@ -1,0 +1,152 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.header {
+    display: flex;
+    gap: 1em;
+    margin: 0;
+    padding: 10px;
+    align-items: center;
+    
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+.logo {
+    margin-right: auto;
+    color: #F9FAF8;
+    font-size: 24px;
+    padding-left: 5rem;
+}
+.header:nth-child(1) {
+    padding-right: 5rem;
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5em;
+    padding: 0 5rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.hero .info {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.hero img {
+    max-width: 100%;
+    height: auto;
+}
+.awesome {
+    font-size: 48px;
+    font-weight:bolder;
+    padding: 0 10px;
+}
+.small {
+    padding: 5px 10px;
+
+}
+.image img {
+    border-radius: 25px;
+    border: 2px solid #3882F6;
+    box-sizing: border-box;
+}
+.btn1 {
+    background-color: #3882F6;
+    border: none;
+    border-radius: 10px;
+    width: 8em;
+    height: 2em;
+    margin-top: 5px;
+    color: #F9FAF8;
+    margin-left: 1em;
+}
+.random-info {
+    text-align: center;
+    padding: 1em;
+    font-weight: bolder;
+    font-size: 36px;
+    color: #1F2937;
+}
+.pictures {
+    display: flex;
+    text-align: center;
+    gap: 2.5em;
+    margin: 0 15em;
+    justify-content:center;
+    margin-bottom: 5em;
+}
+.pic > img {
+    display: block;
+    width: 150px;
+    height: auto;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+    margin: auto;
+}
+.quote {
+    display: flex;
+    flex-direction: column;
+    padding: 5em 10em;
+    background-color: #E5E7EB;
+}
+.q-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937
+}
+.author {
+    color: #1F2937;
+    font-weight: bold;
+    text-align: right;
+    font-size: 23px;
+}
+.signup {
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.elem {
+    background-color: #3882F6;
+    display: flex;
+    flex-direction: row;
+    padding: 2em 5em;
+    border-radius: 10px;
+}
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.col > div {
+    color: #E5E7EB;
+}
+.col-title {
+    font-weight: bolder;
+}
+.signup button {
+    height: 2em;
+    width: 75px;
+    border: 1px solid #E5E7EB;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: auto;
+    margin-left: 5em;
+}
+.footer {
+    background-color: #1F2937;
+    color:#F9FAF8;
+    height: 5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
